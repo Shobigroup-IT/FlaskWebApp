@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def main():
      #get the browser cookies
-    cj = browser_cookie3.load(domain_name='document.cookie')
+    cj = browser_cookie3.load(domain_name='google.com')
     #arrays to store cookie value
     cN = []
     cV = []
